@@ -1,0 +1,115 @@
+
+<!-- @author Mohammad Mehdipour -->
+
+<!--
+This is an HTML document.
+HTML stands for Hypertext Markup Language - it defines the structure
+of a webpage. Browsers parse the HTML tags and render their content.
+-->
+
+<!--
+HTML uses "tags" to define the structure of the page.
+The first tag is the "doctype" - it tells the browser which version
+of HTML we are using. 
+-->
+<!DOCTYPE html>
+<!--
+The next tag is the <html> tag.
+A tag uses < and > symbols to define an "element".
+Tags are either self-closing or have a matching closing tag (/>)
+    - in this case, we have a closing tag
+-->
+<html><!-- Inside the html tag we out the "head" and "body" tags. -->
+    <head><!-- The head tag defines the metadata for the webpage. -->
+        <title>HTML - Hello World</title>
+    </head>
+    <body><!-- The body defines the content of the webpage -->
+        Hello. My name is Matt.
+        <br /> <!-- the <br /> tag specifies a line break. -->
+        <br> 
+        I'm from Philadelphia.
+
+        <div>
+            A "div" <em>specifies</em> a <i>division</i> of the page, logically seperating
+            the content.
+            There are two main types of tags: inline and block-level.
+            divs are block level - they will start a new "block" on the next line.
+            
+            <p>
+                When writing HTML markup and we want to use a reserved
+                character like the less <span>than</span> sign, we have to escape it.
+                Otherwise the browser will interpret it as the start 
+                of a tag. (&lt;)
+                <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">
+                    Escape Sequences
+                </a>
+            </p>
+            <b>Me again.</b>
+            <strong>Me again.</strong>
+            
+            <!-- Heading Tags -->
+            
+            <!-- <div><p><h1>H1</h1></p></div>
+            <h2>H2</h2>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+            <h6>H6</h6> -->
+        </div>
+
+        <h2>Lists</h2>
+        <ul> <!-- Unordered List -->
+            <li>
+                022519salesforce
+                <ol> <!-- Ordered List -->
+                    <li>Matt</li>
+                    <li>Hannah</li>
+                    <li>David</li>
+                </ol>
+            </li>
+            <li>
+                052819NotSure
+                <ol> <!-- Ordered List -->
+                    <li>Sara</li>
+                    <li>David</li>
+                    <li>Kyle</li>
+                </ol>
+            </li>
+        </ul>
+
+        <!-- Span - Inline element, used to apply CSS styles -->
+        <span>span1</span>
+        <span>span2</span>
+        <span>span3</span>
+
+        <!-- Table -->
+        <table>
+            <!-- table row -->
+            <tr>
+                <!-- table header -->
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>Joe</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>Jess</td>
+                <td>35</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </body>
+</html>
+
